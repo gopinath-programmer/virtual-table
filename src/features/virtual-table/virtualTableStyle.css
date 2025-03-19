@@ -6,21 +6,20 @@
 .table-row {
   display: flex;
   align-items: center;
-  height: 50px;
-  padding: 0 10px;
+  padding: 10px 10px;
   box-sizing: border-box;
-  scrollbar-width: none;
-
+  border: 2px solid black;
 }
 
 .header-row {
-  background-color: grey;
+  background-color: rgb(131, 129, 129);
 }
 
 .header-column {
   font-weight: bolder;
   font-size: larger;
 }
+
 
 .oddRow {
   background-color: rgba(153, 158, 163, 0.3);
